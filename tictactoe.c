@@ -94,9 +94,6 @@ int move(char *b, Player p, int depth) {
 			b[ii] = '_';
 		}
 	}
-	if (depth == 2) {
-		cout << endl;
-	}
 	if (depth == 1) {
 		return Moves.rbegin() -> second;
 	} else {
